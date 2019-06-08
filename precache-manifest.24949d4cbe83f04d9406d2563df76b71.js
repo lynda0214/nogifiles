@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5510314837cc90990df551a7023c4d45",
+    "revision": "ce6e9c6fc8a02bac6f74706ebbd88b9d",
     "url": "/nogifiles/index.html"
   },
   {
-    "revision": "1238967eb57fc8311625",
+    "revision": "d7fd1d7370ce36075a9a",
     "url": "/nogifiles/static/css/main.37be2913.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nogifiles/static/js/2.18797e6d.chunk.js"
   },
   {
-    "revision": "1238967eb57fc8311625",
-    "url": "/nogifiles/static/js/main.af67abd0.chunk.js"
+    "revision": "d7fd1d7370ce36075a9a",
+    "url": "/nogifiles/static/js/main.bb77424a.chunk.js"
   },
   {
     "revision": "e47a15072804d9acd158",
