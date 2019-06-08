@@ -14,7 +14,7 @@ const toolbar = props => {
                 <div className="toolbar__toggle-button">
                     <DrawerToggleButton show={props.show} click={props.drawerClickHandler} />
                 </div>
-                <div className="toolbar__logo fontJulius"><Link to="/">◢ Nogifiles</Link></div>
+                <div className="toolbar__logo fontJulius"><Link to="/nogifiles/">◢ Nogifiles</Link></div>
                 
             </nav>
         </header>

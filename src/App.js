@@ -42,8 +42,8 @@ class App extends Component {
           {backdrop}
           <div className='main'>
             
-              <Route exact={true} path="/" component={Intro}/>
-              <Route path="/:memberid" component={MemberProfile}/>
+              <Route exact={true} path="/nogifiles/" component={Intro}/>
+              <Route path="/nogifiles/:memberid" component={MemberProfile}/>
             
           </div>
         </div>
