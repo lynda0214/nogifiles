@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:500&display=swap');
+
+.fontJulius {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+ 
+ .toolbar {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     /* background: white; */
+     background:linear-gradient(-30deg, #E268A1 0%, #7C5D86 100%);
+     box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+     height: 56px;
+     z-index: 300;
+ }
+
+.toolbar__navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 0;
+}
+
+.toolbar__logo {
+    /* margin-left: 1rem; */
+}
+
+.toolbar__logo a{
+    color: white;
+    /* color: linear-gradient(-30deg, #D561DC 0%, #812a90 100%); */
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.toolbar_navigation-items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}  
+
+.toolbar_navigation-items li {
+    padding: 0 0.5rem;
+}
+
+.toolbar_navigation-items a {
+    color: white;
+    text-decoration: none;
+}
+
+.toolbar_navigation-items a:hover,
+.toolbar_navigation-items a:active {
+    color: orange;
+} 
+
+/* @media (max-width: 768px) {
+    .toolbar_navigation-items {
+        display: none;
+    }
+} */
+
+/* @media (min-width: 769px) {
+    .toolbar__toggle-button {
+        display: none;
+    }
+
+    .toolbar__logo {
+        margin-left: 0;
+    }
+} */

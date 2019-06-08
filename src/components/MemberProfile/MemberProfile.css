@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,700&display=swap&subset=japanese');
+
+.fontThin {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+}
+
+.fontRegular {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 76px;
+}
+
+.title h5 {
+    margin: 23px 0 0 0;
+}
+
+.title h1 {
+    margin: 0 0 23px 0;
+}
+
+.box ul {
+    padding: 0 0;
+    margin: 0 0;
+    list-style: none;
+    font-size: 0.9rem;
+}
+
+.callColor {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.callColor button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px;
+    border-color: white;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.3);
+    margin: 5px;
+}
+
+.callColor button:focus {
+    outline: none;
+}
+
+.red {
+    background: red;
+}
+
+.pink {
+    background: #EF7DB0;
+}
+
+.orange {
+    background: orange;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.greenyellow {
+    background: greenyellow;
+}
+
+.green {
+    background: green;
+}
+
+.aqua {
+    background: #81CCFA;
+}
+
+.blue {
+    background: blue;
+}
+
+.purple {
+    background: purple;
+}
+
+.black {
+    background: black;
+}
+
+.red span, .pink span, .orange span, .green span, .aqua span, .blue span, .purple span, .black span {
+    color: white;
+}
+
+.white {
+    background: white;
+}
+
+.white span, .yellow span, .greenyellow span {
+    color: black;
+}
