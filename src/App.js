@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import { HashRouter, Route, Switch} from 'react-router-dom';
 
 import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer/SideDrawer';
@@ -35,19 +35,19 @@ class App extends Component {
     }
 
     return(
-      <Router>
+      <HashRouter>
         <div className="App" style={{height: '100%'}}>
           <Toolbar show={this.state.sideDrawerOpen} drawerClickHandler={this.drawerToggleClickHandler} />
           <SideDrawer show={this.state.sideDrawerOpen} data={N46Members}/>
           {backdrop}
           <div className='main'>
             
-              <Route exact={true} path="/nogifiles/" component={Intro}/>
-              <Route path="/nogifiles/:memberid" component={MemberProfile}/>
+              <Route exact={true} path="/" component={Intro}/>
+              <Route path="/:memberid" component={MemberProfile}/>
             
           </div>
         </div>
-      </Router> 
+      </HashRouter> 
     );
   }
 }
