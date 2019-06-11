@@ -1,3 +1,23 @@
+# nogifiles
+This website is especially built for mobile devices looking up basic information (including glow sticks colors) of Nogizaka 46. 
+
+### Introduction 簡介
+
+It's an unofficial and non-profitmaking website made by a fan of Nogizaka 46. This website is especially built for mobile devices looking up basic information (including glow sticks colors). 
+The profile pictures are from the [official website](http://www.nogizaka46.com/). The information is from [wikipedia](https://zh.wikipedia.org/wiki/乃木坂46) and pictures from the internet [pic1](https://www.likejapan.com/wp-content/uploads/2018/02/editors/9881/20180208012659_5a7b36e34a351.jpg) [pic2](https://overseas.weibo.com/user/NGZKMichy298/3831614465395889) Please kindly contact me if you find this infringes the copyright or any mitaken information.
+
+---
+
+非官方非營利乃木坂46熱血粉絲的小小製作，方便於行動裝置檢索成員的基本資料以及應援顏色。此網站所用的公式照皆來自[官方網站](http://www.nogizaka46.com/)，文字資料參考[維基百科](https://zh.wikipedia.org/wiki/乃木坂46)，應援顏色則參考網友製作之[圖片1](https://www.likejapan.com/wp-content/uploads/2018/02/editors/9881/20180208012659_5a7b36e34a351.jpg)及[圖片2](https://overseas.weibo.com/user/NGZKMichy298/3831614465395889)，如有侵權或錯誤請不吝指教。
+
+---
+
+### Demo 展示
+
+[nogifiles](https://lynda0214.github.io/nogifiles)
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
