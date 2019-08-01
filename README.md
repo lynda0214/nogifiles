@@ -9,6 +9,18 @@ The profile pictures are from the [official website](http://www.nogizaka46.com/)
 
 非官方非營利乃木坂46熱血粉絲的小小製作，方便於行動裝置檢索成員的基本資料以及應援顏色。此網站所用的公式照皆來自[官方網站](http://www.nogizaka46.com/)，文字資料參考[維基百科](https://zh.wikipedia.org/wiki/乃木坂46)，應援顏色則參考網友製作之[圖片1](https://www.likejapan.com/wp-content/uploads/2018/02/editors/9881/20180208012659_5a7b36e34a351.jpg)及[圖片2](https://overseas.weibo.com/user/NGZKMichy298/3831614465395889)，如有侵權或錯誤請不吝指教。
 
+
+### Scripts
+
+```
+// download and run this project
+npm install
+npm start
+
+// push updates to github page
+npm run deploy
+``` 
+
 ---
 
 ### Demo 展示
