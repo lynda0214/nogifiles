@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; 
+import { Link } from 'react-router-dom';
 import './SideDrawer.css';
 
 const sideDrawer = props => {
@@ -18,11 +18,11 @@ const sideDrawer = props => {
 
     let memberLinkFunc = (member, i) => <li key={i} className="fontThin"><Link to={member.id}>{member.name}</Link></li>;
 
-    let g0MemberLink = grade0Member.map(memberLinkFunc); 
-    let g1MemberLink = grade1Member.map(memberLinkFunc);  
-    let g2MemberLink = grade2Member.map(memberLinkFunc);  
-    let g3MemberLink = grade3Member.map(memberLinkFunc); 
-    let g4MemberLink = grade4Member.map(memberLinkFunc);     
+    let g0MemberLink = grade0Member.map(memberLinkFunc);
+    let g1MemberLink = grade1Member.map(memberLinkFunc);
+    let g2MemberLink = grade2Member.map(memberLinkFunc);
+    let g3MemberLink = grade3Member.map(memberLinkFunc);
+    let g4MemberLink = grade4Member.map(memberLinkFunc);
 
     return (
         <nav className={drawerClasses.join(" ")} >
@@ -42,4 +42,4 @@ const sideDrawer = props => {
     );
 };
 
-export default sideDrawer;  
+export default sideDrawer;

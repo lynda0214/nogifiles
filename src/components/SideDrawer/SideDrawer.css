@@ -33,13 +33,17 @@
     height: calc(100vh - 56px);
     list-style: none;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     margin-top: 0;
-    overflow-y: scroll; 
+    overflow-y: scroll;
 }
 
 .side-drawer li {
     margin: 0.3rem 0;
+}
+
+.side-drawer li:last-child {
+    margin: 0.3rem 0 5rem;
 }
 
 .side-drawer a {
@@ -48,10 +52,10 @@
     font-size: 1rem;
 }
 
-.side-drawer a:hover, 
+.side-drawer a:hover,
 .side-drawer a:active {
     color:orange;
-} 
+}
 
 /* @media (min-width: 769px) {
     .side-drawer {
