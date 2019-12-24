@@ -3,7 +3,7 @@
     flex-direction: column;  /* make main axis vertical */
     justify-content: center; /* center items vertically, in this case */
     align-items: center;     /* center items horizontally, in this case */
-    height: calc(100vh);
+    height: calc(100 - 56px);
     width: 100%;
 }
 

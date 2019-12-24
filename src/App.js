@@ -41,17 +41,15 @@ class App extends Component {
           <SideDrawer show={this.state.sideDrawerOpen} data={N46Members}/>
           {backdrop}
           <div className='main'>
-            
               <Route exact={true} path="/" component={Intro}/>
               <Route path="/:memberid" component={MemberProfile}/>
-            
           </div>
         </div>
-      </HashRouter> 
+      </HashRouter>
     );
   }
 }
 
 
 
-export default App; 
+export default App;

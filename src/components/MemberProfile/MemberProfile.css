@@ -40,9 +40,11 @@
     height: 100px;
     display: flex;
     flex-direction: column;
+    z-index: 400;
 }
 
 .callColor button {
+    position: relative;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -50,10 +52,41 @@
     border-color: white;
     box-shadow: 0 6px 10px 0 rgba(0,0,0,0.3);
     margin: 5px;
+    transition: all 1s ease;
+}
+
+.callColor button:active {
+    transform: scale(1.5) perspective(1px);
 }
 
 .callColor button:focus {
     outline: none;
+}
+
+.colorbg {
+    position: fixed;
+    right: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: all .5s;
+}
+
+.colorbg.up {
+    bottom: 75px;
+}
+
+.colorbg.down {
+    bottom: 25px;
+}
+
+.colorbg.open {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+    border-radius: 0%;
 }
 
 .red {
