@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nogifiles/static/css/main.ae51d563.chunk.css",
-    "main.js": "/nogifiles/static/js/main.9d55c300.chunk.js",
-    "main.js.map": "/nogifiles/static/js/main.9d55c300.chunk.js.map",
+    "main.css": "/nogifiles/static/css/main.3079e4a8.chunk.css",
+    "main.js": "/nogifiles/static/js/main.2ac13093.chunk.js",
+    "main.js.map": "/nogifiles/static/js/main.2ac13093.chunk.js.map",
     "runtime~main.js": "/nogifiles/static/js/runtime~main.b40a7bc7.js",
     "runtime~main.js.map": "/nogifiles/static/js/runtime~main.b40a7bc7.js.map",
-    "static/js/2.23e083f5.chunk.js": "/nogifiles/static/js/2.23e083f5.chunk.js",
-    "static/js/2.23e083f5.chunk.js.map": "/nogifiles/static/js/2.23e083f5.chunk.js.map",
+    "static/js/2.23dfaa90.chunk.js": "/nogifiles/static/js/2.23dfaa90.chunk.js",
+    "static/js/2.23dfaa90.chunk.js.map": "/nogifiles/static/js/2.23dfaa90.chunk.js.map",
     "index.html": "/nogifiles/index.html",
-    "precache-manifest.4fc2f19af0b6d3666e49c3e8cc36f978.js": "/nogifiles/precache-manifest.4fc2f19af0b6d3666e49c3e8cc36f978.js",
+    "precache-manifest.ef3d671a07486138cc4d36ed145b30d9.js": "/nogifiles/precache-manifest.ef3d671a07486138cc4d36ed145b30d9.js",
     "service-worker.js": "/nogifiles/service-worker.js",
-    "static/css/main.ae51d563.chunk.css.map": "/nogifiles/static/css/main.ae51d563.chunk.css.map"
+    "static/css/main.3079e4a8.chunk.css.map": "/nogifiles/static/css/main.3079e4a8.chunk.css.map"
   }
 }
