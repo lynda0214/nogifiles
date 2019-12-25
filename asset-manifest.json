@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nogifiles/static/css/main.863d6e58.chunk.css",
-    "main.js": "/nogifiles/static/js/main.2585fe52.chunk.js",
-    "main.js.map": "/nogifiles/static/js/main.2585fe52.chunk.js.map",
+    "main.css": "/nogifiles/static/css/main.941f07c8.chunk.css",
+    "main.js": "/nogifiles/static/js/main.c4498a12.chunk.js",
+    "main.js.map": "/nogifiles/static/js/main.c4498a12.chunk.js.map",
     "runtime~main.js": "/nogifiles/static/js/runtime~main.b40a7bc7.js",
     "runtime~main.js.map": "/nogifiles/static/js/runtime~main.b40a7bc7.js.map",
     "static/js/2.23dfaa90.chunk.js": "/nogifiles/static/js/2.23dfaa90.chunk.js",
     "static/js/2.23dfaa90.chunk.js.map": "/nogifiles/static/js/2.23dfaa90.chunk.js.map",
     "index.html": "/nogifiles/index.html",
-    "precache-manifest.fa269bf415ba1761cf8e87d013a9c54d.js": "/nogifiles/precache-manifest.fa269bf415ba1761cf8e87d013a9c54d.js",
+    "precache-manifest.29e1616e27735833c97cbf9ccddf1c86.js": "/nogifiles/precache-manifest.29e1616e27735833c97cbf9ccddf1c86.js",
     "service-worker.js": "/nogifiles/service-worker.js",
-    "static/css/main.863d6e58.chunk.css.map": "/nogifiles/static/css/main.863d6e58.chunk.css.map"
+    "static/css/main.941f07c8.chunk.css.map": "/nogifiles/static/css/main.941f07c8.chunk.css.map"
   }
 }
