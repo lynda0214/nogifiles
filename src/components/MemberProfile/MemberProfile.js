@@ -60,7 +60,7 @@ class MemberProfile extends Component {
                         <ul className="fontThin">
                             <li>誕生日：{personalData.birthday}</li>
                             <li>出生地：{personalData.country}</li>
-                            <li>軍団：{personalData.gundan}</li>
+                            <li>軍団：{personalData.gundan.join(' ')}</li>
                         </ul>
 
                     </div>

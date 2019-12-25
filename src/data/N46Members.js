@@ -6,7 +6,7 @@ const N46Members = [
         country: '埼玉縣',
         grade: 1,
         graduated: false,
-        gundan: '真夏尊敬軍團',
+        gundan: ['真夏尊敬軍團'],
         color: ['red', 'pink'],
         colorName: ['赤', '桃']
     },
@@ -17,7 +17,7 @@ const N46Members = [
         country: '東京都',
         grade: 1,
         graduated: false,
-        gundan: '鬱金香',
+        gundan: ['鬱金香'],
         color: ['yellow', 'yellow'],
         colorName: ['黃', '黃']
     },
@@ -28,7 +28,7 @@ const N46Members = [
         country: '埼玉縣',
         grade: 1,
         graduated: false,
-        gundan: '犬組',
+        gundan: ['犬組'],
         color: ['white', 'white'],
         colorName: ['白', '白']
     },
@@ -39,7 +39,7 @@ const N46Members = [
         country: '東京都',
         grade: 1,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['aqua', 'white'],
         colorName: ['水色', '白']
     },
@@ -61,7 +61,7 @@ const N46Members = [
         country: '神奈川縣',
         grade: 1,
         graduated: true,
-        gundan: '犬組',
+        gundan: ['犬組'],
         color: ['red', 'pink'],
         colorName: ['赤', '桃']
     },
@@ -72,7 +72,7 @@ const N46Members = [
         country: '群馬縣',
         grade: 1,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['aqua', 'aqua'],
         colorName: ['水色', '水色']
     },
@@ -83,7 +83,7 @@ const N46Members = [
         country: '千葉縣',
         grade: 1,
         graduated: false,
-        gundan: '鬱金香',
+        gundan: ['鬱金香'],
         color: ['aqua', 'pink'],
         colorName: ['水色', '桃']
     },
@@ -94,7 +94,7 @@ const N46Members = [
         country: '埼玉縣',
         grade: 1,
         graduated: false,
-        gundan: '沙友蘋果軍團',
+        gundan: ['沙友蘋果軍團'],
         color: ['black', 'white'],
         colorName: ['黑', '白']
     },
@@ -105,7 +105,7 @@ const N46Members = [
         country: '東京都',
         grade: 1,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['purple', 'orange'],
         colorName: ['紫', '橙']
     },
@@ -116,7 +116,7 @@ const N46Members = [
         country: '千葉縣',
         grade: 1,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['white', 'white'],
         colorName: ['白', '白']
     },
@@ -138,7 +138,7 @@ const N46Members = [
         country: '廣島縣',
         grade: 1,
         graduated: false,
-        gundan: '鬱金香',
+        gundan: ['鬱金香'],
         color: ['yellow', 'orange'],
         colorName: ['黃', '橙']
     },
@@ -149,7 +149,7 @@ const N46Members = [
         country: '神奈川縣',
         grade: 2,
         graduated: false,
-        gundan: '西瓜組',
+        gundan: ['西瓜組'],
         color: ['green', 'purple'],
         colorName: ['綠', '紫']
     },
@@ -160,7 +160,7 @@ const N46Members = [
         country: '千葉縣',
         grade: 2,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['pink', 'greenyellow'],
         colorName: ['桃', '黃綠']
     },
@@ -171,7 +171,7 @@ const N46Members = [
         country: '埼玉縣',
         grade: 2,
         graduated: false,
-        gundan: '沙友蘋果軍團',
+        gundan: ['沙友蘋果軍團'],
         color: ['blue', 'green'],
         colorName: ['青', '綠']
     },
@@ -182,7 +182,7 @@ const N46Members = [
         country: '埼玉縣',
         grade: 2,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['blue', 'purple'],
         colorName: ['青', '紫']
     },
@@ -193,7 +193,7 @@ const N46Members = [
         country: '秋田縣',
         grade: 2,
         graduated: false,
-        gundan: '真夏尊敬軍團',
+        gundan: ['真夏尊敬軍團'],
         color: ['white', 'purple'],
         colorName: ['白', '紫']
     },
@@ -204,7 +204,7 @@ const N46Members = [
         country: '東京都',
         grade: 2,
         graduated: false,
-        gundan: '沙友蘋果軍團',
+        gundan: ['沙友蘋果軍團'],
         color: ['red', 'white'],
         colorName: ['赤', '白']
     },
@@ -215,7 +215,7 @@ const N46Members = [
         country: '岐阜縣',
         grade: 2,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['white', 'orange'],
         colorName: ['白', '橙']
     },
@@ -226,7 +226,7 @@ const N46Members = [
         country: '東京都',
         grade: 2,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['yellow', 'white'],
         colorName: ['黃', '白']
     },
@@ -237,7 +237,7 @@ const N46Members = [
         country: '東京都',
         grade: 2,
         graduated: false,
-        gundan: '真夏尊敬軍團',
+        gundan: ['真夏尊敬軍團'],
         color: ['yellow', 'greenyellow'],
         colorName: ['黃', '黃綠']
     },
@@ -248,7 +248,7 @@ const N46Members = [
         country: '沖繩縣',
         grade: 3,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['purple', 'red'],
         colorName: ['紫', '赤']
     },
@@ -259,7 +259,7 @@ const N46Members = [
         country: '東京都',
         grade: 3,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['red', 'pink'],
         colorName: ['赤', '桃']
     },
@@ -270,7 +270,7 @@ const N46Members = [
         country: '神奈川縣',
         grade: 3,
         graduated: false,
-        gundan: '若樣軍團',
+        gundan: ['若樣軍團'],
         color: ['blue', 'aqua'],
         colorName: ['青', '水色']
     },
@@ -281,7 +281,7 @@ const N46Members = [
         country: '鹿兒島縣',
         grade: 3,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['pink', 'green'],
         colorName: ['桃', '綠']
     },
@@ -292,7 +292,7 @@ const N46Members = [
         country: '宮城縣',
         grade: 3,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['aqua', 'yellow'],
         colorName: ['水色', '黃']
     },
@@ -303,7 +303,7 @@ const N46Members = [
         country: '東京都',
         grade: 3,
         graduated: false,
-        gundan: '若樣軍團',
+        gundan: ['若樣軍團'],
         color: ['purple', 'yellow'],
         colorName: ['紫', '黃']
     },
@@ -314,7 +314,7 @@ const N46Members = [
         country: '愛知縣',
         grade: 3,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['red', 'red'],
         colorName: ['赤', '赤']
     },
@@ -325,7 +325,7 @@ const N46Members = [
         country: '東京都',
         grade: 3,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['blue', 'white'],
         colorName: ['青', '白']
     },
@@ -336,7 +336,7 @@ const N46Members = [
         country: '東京都',
         grade: 3,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['yellow', 'yellow'],
         colorName: ['黃', '黃']
     },
@@ -347,7 +347,7 @@ const N46Members = [
         country: '東京都',
         grade: 3,
         graduated: false,
-        gundan: '若樣軍團',
+        gundan: ['若樣軍團'],
         color: ['blue', 'yellow'],
         colorName: ['青', '黃']
     },
@@ -358,7 +358,7 @@ const N46Members = [
         country: '大分縣',
         grade: 3,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['pink', 'purple'],
         colorName: ['桃', '紫']
     },
@@ -369,7 +369,7 @@ const N46Members = [
         country: '福岡縣',
         grade: 3,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['red', 'green'],
         colorName: ['赤', '綠']
     },
@@ -380,7 +380,7 @@ const N46Members = [
         country: '秋田縣',
         grade: 1,
         graduated: true,
-        gundan: '犬組',
+        gundan: ['犬組'],
         color: ['blue', 'purple'],
         colorName: ['青', '紫']
     },
@@ -391,7 +391,7 @@ const N46Members = [
         country: '神奈川縣',
         grade: 1,
         graduated: true,
-        gundan: '犬組',
+        gundan: ['犬組'],
         color: ['green', 'purple'],
         colorName: ['綠', '紫']
     },
@@ -402,7 +402,7 @@ const N46Members = [
         country: '大分縣',
         grade: 1,
         graduated: true,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['red', 'red'],
         colorName: ['赤', '赤']
     },
@@ -424,7 +424,7 @@ const N46Members = [
         country: '大阪府',
         grade: 1,
         graduated: true,
-        gundan: '鬱金香',
+        gundan: ['鬱金香'],
         color: ['red', 'white'],
         colorName: ['赤', '白']
     },
@@ -435,7 +435,7 @@ const N46Members = [
         country: '埼玉縣',
         grade: 1,
         graduated: true,
-        gundan: '鬱金香',
+        gundan: ['鬱金香'],
         color: ['blue', 'red'],
         colorName: ['青', '赤']
     },
@@ -446,7 +446,7 @@ const N46Members = [
         country: '廣島縣',
         grade: 1,
         graduated: true,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['pink', 'pink'],
         colorName: ['桃', '桃']
     },
@@ -457,7 +457,7 @@ const N46Members = [
         country: '大阪府',
         grade: 1,
         graduated: true,
-        gundan: '西瓜組',
+        gundan: ['西瓜組'],
         color: ['green', 'white'],
         colorName: ['綠', '白']
     },
@@ -468,7 +468,7 @@ const N46Members = [
         country: '神奈川縣',
         grade: 1,
         graduated: true,
-        gundan: '鬱金香',
+        gundan: ['鬱金香'],
         color: ['orange', 'orange'],
         colorName: ['橙', '橙']
     },
@@ -490,7 +490,7 @@ const N46Members = [
         country: '神奈川縣',
         grade: 2,
         graduated: true,
-        gundan: '西瓜組',
+        gundan: ['西瓜組', '沙友蘋果軍團'],
         color: ['green', 'purple'],
         colorName: ['綠', '紫']
     },
@@ -501,7 +501,7 @@ const N46Members = [
         country: '埼玉縣',
         grade: 2,
         graduated: true,
-        gundan: '真夏尊敬軍團',
+        gundan: ['真夏尊敬軍團'],
         color: ['green', 'orange'],
         colorName: ['綠', '橙']
     },
@@ -512,7 +512,7 @@ const N46Members = [
         country: '北海道',
         grade: 1,
         graduated: true,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['green', 'green'],
         colorName: ['綠', '綠']
     },
@@ -523,7 +523,7 @@ const N46Members = [
         country: '靜岡縣',
         grade: 1,
         graduated: true,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['green', 'purple'],
         colorName: ['綠', '紫']
     },
@@ -534,9 +534,108 @@ const N46Members = [
         country: '愛知縣',
         grade: 1,
         graduated: true,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['yellow', 'yellow'],
         colorName: ['黃', '黃']
+    },
+    {
+        id: 'iwaseyumiko',
+        name: '岩瀨佑美子',
+        birthday: '1990/06/12',
+        country: '琦玉縣',
+        grade: 1,
+        graduated: true,
+        gundan: ['無所屬'],
+        color: ['black', 'black'],
+        colorName: ['黑', '黑']
+    },
+    {
+        id: 'andoumikumo',
+        name: '安藤美雲',
+        birthday: '1993/05/21',
+        country: '神奈川縣',
+        grade: 1,
+        graduated: true,
+        gundan: ['無所屬'],
+        color: ['black', 'black'],
+        colorName: ['黑', '黑']
+    },
+    {
+        id: 'kashiwayukina',
+        name: '柏幸奈',
+        birthday: '1994/08/12',
+        country: '神奈川縣',
+        grade: 1,
+        graduated: true,
+        gundan: ['無所屬'],
+        color: ['black', 'black'],
+        colorName: ['黑', '黑']
+    },
+    {
+        id: 'miyazawaseira',
+        name: '宮澤成良',
+        birthday: '1993/10/29',
+        country: '千葉縣',
+        grade: 1,
+        graduated: true,
+        gundan: ['無所屬'],
+        color: ['black', 'black'],
+        colorName: ['黑', '黑']
+    },
+    {
+        id: 'ichikirena',
+        name: '市來玲奈',
+        birthday: '1996/01/23',
+        country: '千葉縣',
+        grade: 1,
+        graduated: true,
+        gundan: ['無所屬'],
+        color: ['black', 'black'],
+        colorName: ['黑', '黑']
+    },
+    {
+        id: 'itounene',
+        name: '伊藤寧寧',
+        birthday: '1995/12/12',
+        country: '岐阜縣',
+        grade: 1,
+        graduated: true,
+        gundan: ['無所屬'],
+        color: ['black', 'black'],
+        colorName: ['黑', '黑']
+    },
+    {
+        id: 'yamatorina',
+        name: '大和里菜',
+        birthday: '1994/12/14',
+        country: '宮城縣',
+        grade: 1,
+        graduated: true,
+        gundan: ['無所屬'],
+        color: ['black', 'black'],
+        colorName: ['黑', '黑']
+    },
+    {
+        id: 'hatanakaseira',
+        name: '畠中清羅',
+        birthday: '1995/12/05',
+        country: '大分縣',
+        grade: 1,
+        graduated: true,
+        gundan: ['無所屬'],
+        color: ['black', 'black'],
+        colorName: ['黑', '黑']
+    },
+    {
+        id: 'matsuirena',
+        name: '松井玲奈',
+        birthday: '1991/07/27',
+        country: '愛知縣',
+        grade: 1,
+        graduated: true,
+        gundan: ['無所屬'],
+        color: ['black', 'black'],
+        colorName: ['黑', '黑']
     },
     {
         id: 'endousakura',
@@ -545,7 +644,7 @@ const N46Members = [
         country: '愛知縣',
         grade: 4,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['pink', 'white'],
         colorName: ['桃', '白']
     },
@@ -556,7 +655,7 @@ const N46Members = [
         country: '栃木縣',
         grade: 4,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['orange', 'green'],
         colorName: ['橙', '綠']
     },
@@ -567,7 +666,7 @@ const N46Members = [
         country: '岡山縣',
         grade: 4,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['pink', 'orange'],
         colorName: ['桃', '橙']
     },
@@ -578,7 +677,7 @@ const N46Members = [
         country: '北海道',
         grade: 4,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['aqua', 'red'],
         colorName: ['水色', '赤']
     },
@@ -589,7 +688,7 @@ const N46Members = [
         country: '美國加利福尼亞州',
         grade: 4,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['aqua', 'orange'],
         colorName: ['水色', '橙']
     },
@@ -600,7 +699,7 @@ const N46Members = [
         country: '千葉縣',
         grade: 4,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['blue', 'greenyellow'],
         colorName: ['青', '黃綠']
     },
@@ -611,7 +710,7 @@ const N46Members = [
         country: '琦玉縣',
         grade: 4,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['orange', 'orange'],
         colorName: ['橙', '橙']
     },
@@ -622,7 +721,7 @@ const N46Members = [
         country: '琦玉縣',
         grade: 4,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['purple', 'aqua'],
         colorName: ['紫', '水色']
     },
@@ -633,7 +732,7 @@ const N46Members = [
         country: '愛知縣',
         grade: 4,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['purple', 'purple'],
         colorName: ['紫', '紫']
     },
@@ -644,7 +743,7 @@ const N46Members = [
         country: '大阪府',
         grade: 4,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['blue', 'blue'],
         colorName: ['青', '青']
     },
@@ -655,7 +754,7 @@ const N46Members = [
         country: '東京都',
         grade: 4,
         graduated: false,
-        gundan: '無所屬',
+        gundan: ['無所屬'],
         color: ['pink', 'yellow'],
         colorName: ['桃', '黃']
     },
