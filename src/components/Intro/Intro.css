@@ -12,7 +12,7 @@
 
 }
 
-.container h3 {
+.container h2 {
     background: -webkit-linear-gradient(-30deg, #E268A1 0%, #7C5D86 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -43,6 +43,7 @@ img.cover {
 img.arrow {
     position: fixed;
     left: 25px;
+    width: 100px;
     animation: wiggle 1.5s infinite;
 }
 
