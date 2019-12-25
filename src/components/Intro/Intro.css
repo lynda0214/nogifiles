@@ -7,12 +7,12 @@
 .container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
     padding: 60px 30px 5px;
 
 }
 
-.container h1 {
+.container h3 {
     background: -webkit-linear-gradient(-30deg, #E268A1 0%, #7C5D86 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -32,4 +32,22 @@
     align-self: center;
     color: MediumOrchid;
     font-size: 0.5rem;
+}
+
+img.cover {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+}
+
+img.arrow {
+    position: fixed;
+    left: 25px;
+    animation: wiggle 1.5s infinite;
+}
+
+@keyframes wiggle {
+    0% { transform: rotate(-5deg); }
+   50% { transform: rotate(5deg); }
+  100% { transform: rotate(-5deg); }
 }
